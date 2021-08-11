@@ -1,0 +1,8 @@
+name: 'Houen Test'
+description: 'This action tests marketplace integration'
+author: 'h0u3n'
+runs:
+  using: "composite"
+  steps:
+    - run: $GITHUB_ACTION_PATH/run.sh
+      shell: bash
